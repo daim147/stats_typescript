@@ -1,0 +1,12 @@
+{
+  "scripts": {
+    "start:build": "tsc -w",
+    "start:run": "nodemon ./build/index.js",
+    "start": "concurrently npm:start:*"
+  },
+  "dependencies": {
+    "@types/node": "^17.0.21",
+    "concurrently": "^7.0.0",
+    "nodemon": "^2.0.15"
+  }
+}
